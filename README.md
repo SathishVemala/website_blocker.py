@@ -22,5 +22,22 @@ When you type a url and search for it, before it gets converted to IP address it
 It first checks in the host file that already something present over there. If the domain is already present then it will choose that IP address only. 
 (If domain is already present in the host file it will choose that IP address).
 
+What we will do?
+
+We will map the domain for example Facebook.com to our own IP address that is local machine IP address. 
+At that time what happens means the entered url will not send IP address to server and then request was not go. 
+It will check from the host file only. From host file it will check and get the IP address(i.e,  your own machine local host). 
+Server was not respond. Facebook won’t load. That website won’t load and you are already blocked it.
+
+Note: Instead of DNS request going to the server it redirects to our local Host. 
+
+In Local Host the domain of whatever website you want to block will map to an ip address which is our own local machine ip address. 
+In this way server won’t respond.
+
+Output:
+
+Go to browser and search for Instagram.com the page won’t load. Search Facebook.com the page won’t load. 
+Hence Our project is executed successfully.
+
 
                
