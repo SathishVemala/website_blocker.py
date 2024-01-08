@@ -39,7 +39,12 @@ Output:
 Go to browser and search for Instagram.com the page won’t load. Search Facebook.com the page won’t load. 
 Hence Our project is executed successfully.
 
-To watch Demo: [click Here](https://drive.google.com/file/d/1S4fNNU1DojRN2rrnQXkhfWTATIwwBy2e/view?usp=sharing)
+● Goal: To block unwanted websites and not waste valuable time of employees and company. 
+
+● Techniques used: python file handling, scheduling tasks for automation, Hosts file working. 
+
+● Outcome: When we open www.facebook.com the page won’t load.
+To watch Demo: [Click Here](https://drive.google.com/file/d/1S4fNNU1DojRN2rrnQXkhfWTATIwwBy2e/view?usp=sharing)
 
 
                
