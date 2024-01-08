@@ -10,4 +10,17 @@ Website Blocker Using Python [Working Model]
 - [ ] You can see here it got added to my host file. Now it is ok. If you see here if i give www.facebook.com it says like it is almost blocked right. If i want to unblock this go back to the host file I will just remove this and then save the file and back here now if you refresh it. It is working. 
 - [ ] Even if you want to add unblock option to your code you can add it. But I am just showing you here manually by removing it from the host file.
 
+Concepts I have learnt:
+
+python  file handling
+Scheduling tasks for automation
+Hosts file working(DNS AND IP)
+
+How do we access the web?
+
+When you type a url and search for it, before it gets converted to IP address it actually checks in the host file first.
+It first checks in the host file that already something present over there. If the domain is already present then it will choose that IP address only. 
+(If domain is already present in the host file it will choose that IP address).
+
+
                
