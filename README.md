@@ -10,33 +10,33 @@ Website Blocker Using Python [Working Model]
 - [ ] You can see here it got added to my host file. Now it is ok. If you see here if i give www.facebook.com it says like it is almost blocked right. If i want to unblock this go back to the host file I will just remove this and then save the file and back here now if you refresh it. It is working. 
 - [ ] Even if you want to add unblock option to your code you can add it. But I am just showing you here manually by removing it from the host file.
 
-Concepts I have learnt:
+● Concepts I have learnt:
 
 python  file handling
 Scheduling tasks for automation
 Hosts file working(DNS AND IP)
 
-How do we access the web?
+● How do we access the web?
 
 When you type a url and search for it, before it gets converted to IP address it actually checks in the host file first.
 It first checks in the host file that already something present over there. If the domain is already present then it will choose that IP address only. 
 (If domain is already present in the host file it will choose that IP address).
 
-What we will do?
+● What we will do?
 
 We will map the domain for example Facebook.com to our own IP address that is local machine IP address. 
 At that time what happens means the entered url will not send IP address to server and then request was not go. 
 It will check from the host file only. From host file it will check and get the IP address(i.e,  your own machine local host). 
 Server was not respond. Facebook won’t load. That website won’t load and you are already blocked it.
 
-Note: Instead of DNS request going to the server it redirects to our local Host. 
+● Note: Instead of DNS request going to the server it redirects to our local Host. 
 
-In Local Host the domain of whatever website you want to block will map to an ip address which is our own local machine ip address. 
+● In Local Host the domain of whatever website you want to block will map to an ip address which is our own local machine ip address. 
 In this way server won’t respond.
 
 Output:
 
-Go to browser and search for Instagram.com the page won’t load. Search Facebook.com the page won’t load. 
+● Go to browser and search for Instagram.com the page won’t load. Search Facebook.com the page won’t load. 
 Hence Our project is executed successfully.
 
 ● Goal: To block unwanted websites and not waste valuable time of employees and company. 
@@ -45,7 +45,7 @@ Hence Our project is executed successfully.
 
 ● Outcome: When we open www.facebook.com the page won’t load.
 
-Watch Demo: [Click Here](https://drive.google.com/file/d/1S4fNNU1DojRN2rrnQXkhfWTATIwwBy2e/view?usp=sharing)
+● Watch Demo: [Click Here](https://drive.google.com/file/d/1S4fNNU1DojRN2rrnQXkhfWTATIwwBy2e/view?usp=sharing)
 
 
                
